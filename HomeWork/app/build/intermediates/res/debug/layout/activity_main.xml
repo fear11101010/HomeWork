@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolactionbarlayout"></include>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginpage"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" 
+        android:hint="@string/emailHint">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="@string/passwordHint"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="fill_parent"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/buttontextcolor"
+            android:text="@string/signin" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="fill_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/buttontextcolor"
+            android:layout_height="wrap_content"
+            android:text="@string/signup" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout><!-- From: file:/D:/Android/AndroidStdio/HomeWork/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HomeWork</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="emailHint">Enter your email</string>
+    <string name="passwordHint">Enter password</string>
+    <string name="loginpage">Log In</string>
+    <string name="phoneHint">Enter phone number</string>
+    <string name="birthdateHint">Enter your birth date</string>
+    <string name="nameHint">Enter your name</string>
+    <string name="confirmpasswordHint">Confirm Password</string>
+    <string-array name="genderList">
+        <item >Select a gender</item>
+        <item >Male</item>
+        <item >Female</item>
+    </string-array>
+    <string name="signuplebel">SignUp</string>
+    <string name="cancel">Cancel</string>
+    <string name="shareText">Share Text</string>
+    <string name="logOut">Log Out</string>
+    <string name="editProfile">View Profile</string>
+    <string name="share">Share</string>
+    <string name="shareHint">Edit your message</string>
+    <string name="cpass">Change Password</string>
+    <string name="eprofile">Edit Profile</string>
+    <string name="updateProfile">Save</string>
+    <string name="vprofile">View Profile</string>
+    <string name="newpassword">Enter new password</string>
+    <string name="repeatnewpassword">Enter new password again</string>
+    <string name="oldpassword">Enter old password</string>
+
+</resources>

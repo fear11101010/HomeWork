@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingBottom="10dp"
+    android:paddingTop="0dp">
+
+    <include layout="@layout/toolactionbarlayout"></include>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="20"
+        android:inputType="textPersonName" 
+        android:hint="@string/nameHint">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" 
+        android:hint="@string/emailHint"/>
+
+    <EditText
+        android:id="@+id/bdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/birthdateHint" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="phone" 
+        android:hint="@string/phoneHint"/>
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:layout_marginTop="15dp"
+        android:entries="@array/genderList"
+        />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="@string/passwordHint"
+        />
+
+    <EditText
+        android:id="@+id/cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="@string/confirmpasswordHint"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="fill_parent"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/buttontextcolor"
+            android:text="@string/signup" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/buttontextcolor"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

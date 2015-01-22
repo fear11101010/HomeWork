@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp">
+
+    <Button
+        android:id="@+id/shareDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shareText" />
+
+    <Button
+        android:id="@+id/viewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editProfile" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logOut" />
+
+</LinearLayout>
+<!-- From: file:/D:/Android/AndroidStdio/HomeWork/app/src/main/res/layout/signinlayout.xml -->
